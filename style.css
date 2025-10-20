@@ -1,0 +1,16 @@
+/* Thêm vào cuối file style.css */
+
+.category-item {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.category-item:hover {
+    background-color: #e9ecef;
+}
+
+.category-item.active {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
